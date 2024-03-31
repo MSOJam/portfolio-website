@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>James Moran - Uni</title>
+    <link rel="icon" href="Images/webfavicon.png">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Anybody:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <script>
+        function fadeInPage() {
+            if (!window.AnimationEvent) { return; }
+            var fader = document.getElementById('fader');
+            fader.classList.add('fade-out');
+        }
+    </script>
+    <script src="script.js"></script>
+</head>
+<body>
+    <svg id="fader"></svg>
+    <script>
+        fadeInPage()
+    </script>
+    <header>
+        <h1>University 🎓</h1>
+    </header>
+    
+    <nav class="navbar">
+        <ul>
+            <li><a href="homepage.html">Home</a></li>
+            <div class="dropdown">
+                <li><a href="unihome.html">Uni</a></li>
+                <div class="unilist">
+                    <a href="COMP1511.html">COMP1511</a>
+                    <a href="COMP1521.html">COMP1521</a>
+                    <a href="COMP2521.html">COMP2521</a>
+                    <a href="COMP1531.html">COMP1531</a>
+                    <a href="COMP3121.html">COMP3121</a>
+                    <a href="COMP3311.html">COMP3311</a>
+                    <a href="COMP3231.html">COMP3231 (ongoing)</a>
+                    <a href="COMP3411.html">COMP3411 (ongoing)</a>
+                </div>
+            </div>
+            <div class="dropdown">                                                                                                                                                                                                                                                                                                       
+                <li><a href="projectshome.html">Projects</a></li>
+                <div class="projlist">
+                    <a href="">2D Platformer</a>
+                    <a href="">Portfolio Website</a>
+                </div>
+            </div>
+            <li><a href="contact.html">Contact</a></li>
+        </ul>
+    </nav>
+    
+
+    
+
+    
+    <main>
+        <h1>Computer Science so far 👨‍💻</h1>
+        <img src="Images/new-UNSW-logo-png-horizontal-crest.png" alt="UNSW logo" id="unsw_logo">
+        <p> 
+            Hey there! Welcome to my Computer Science journey so far!
+        </p>
+        <p>
+            I'm currently in my final year of a Bachelor of Science (Computer Science) degree, which I am completing at UNSW.
+        </p>
+        <p>
+            Here's a small summary of the subjects and skills that I have encountered during my studies so far! 
+        </p>
+        <p style="font-style: italic; text-align: center;">Click on the subject names to find out more about my experiences</p>
+        <table>
+            <tr>
+                <th><a href="COMP1531.html">COMP1531: Software Engineering Fundamentals</a></th>
+                <th><a href="COMP3311.html">COMP3311: Database systems</a></th>
+                <th><a href="COMP3121.html">COMP3121: Algorithms & Programming Techniques</a></th>
+                <th><a href="COMP1521.html">COMP1521: Computer Systems Fundamentals</a></th>
+            </tr>
+            <tr>
+                <td>Backend development of HTTP server for user-end application </td>
+                <td>Understanding and implementation of SQL</td>
+                <td>Algorithm design techniques (dp, greedy, divide & conquer, flow networks, etc.)</td>
+                <td>Understanding and implementation of assembly (mips)</td>
+            </tr>
+            <tr>
+                <td>Group work for major project. Use of Git for CI/CD</td>
+                <td>Relational design theory and Query Evaluation</td>
+                <td>Critical thinking and problem solving</td>
+                <td>Bitwise operations, Unicode, Floating point</td>
+            </tr>
+            <tr>
+                <td>Javascript, Typescript and Dynamic Verification</td>
+                <td>DB programming using PLpgSQL, Psycopg2 and Python</td>
+                <td>Analysis and justification of algorithm correctness and validity</td>
+                <td>Working with files, processes and threads</td>
+                
+            </tr>
+        </table>
+        <br>
+        <table>
+            <tr>
+                <th><a href="COMP1511.html">COMP1511: Programming Fundamentals</a></th>
+                <th><a href="COMP2521.html">COMP2521: Data Structures & Algorithms</a></th>
+                <th><a href="COMP3231.html">COMP3231: Operating Systems (ongoing)</a></th>    
+                <th><a href="COMP3411.html">COMP3411: Artifical Intelligence (ongoing)</a></th>
+            </tr>
+            <tr>
+                <td>Introduction to Computer Science and programming</td>
+                <td>Data Structures (BSTs, Graphs, etc.) and ADTs</td>
+                <td>Concepts and implementation of processes and threads</td>
+                <td>Classifying AI tasks and types of Agents</td>
+            </tr>
+            <tr>
+                <td>C programming language and C compilation</td>
+                <td>Graph Traversal and algorithms</td>
+                <td>Concurrency and synchronisation</td>
+                <td>Constraint Satisfaction and Backtracking Search</td>
+            </tr>
+            <tr>
+                <td>Program design, style, testing and debugging</td>
+                <td>Sorting, hashing and complexity</td>
+                <td>File Management and memory</td>
+                <td>Understanding heuristics and Heuristic searches</td>
+            </tr>
+        </table>
+
+        <p> 
+            I began my Computer Science journey at the start of 2023, when I enrolled into a Bachelor of Science (Computer Science) at the University of New South Wales. 
+            I had previously completed a year of study at UNSW and so those credits ended up being counted as free electives towards my current degree
+        </p>
+    </main>
+
+    <footer>
+        <p>Created by James Moran O'Donnell</p>
+        <p>
+            For the resources used to build the site click <a href="resources.html">here.</a>
+        </p>
+        <a target="_blank" href="https://icons8.com/icon/4IZ8RiC9K8go/star">Star</a> icon by <a target="_blank" href="https://icons8.com">Icons8</a>
+    </footer>
+</body>
+</html>

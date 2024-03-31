@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>James Moran - Uni</title>
+    <link rel="icon" href="Images/webfavicon.png">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Anybody:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <script>
+        function fadeInPage() {
+            if (!window.AnimationEvent) { return; }
+            var fader = document.getElementById('fader');
+            fader.classList.add('fade-out');
+        }
+    </script>
+    <script src="script.js"></script>
+</head>
+<body>
+    <svg id="fader"></svg>
+    <script>
+        fadeInPage()
+    </script>
+    
+    <nav class="navbar">
+        <ul>
+            <li><a href="homepage.html">Home</a></li>
+            <div class="dropdown">
+                <li><a href="unihome.html">Uni</a></li>
+                <div class="unilist">
+                    <a href="COMP1511.html">COMP1511</a>
+                    <a href="COMP1521.html">COMP1521</a>
+                    <a href="COMP2521.html">COMP2521</a>
+                    <a href="COMP1531.html">COMP1531</a>
+                    <a href="COMP3121.html">COMP3121</a>
+                    <a href="COMP3311.html">COMP3311</a>
+                    <a href="COMP3231.html">COMP3231 (ongoing)</a>
+                    <a href="COMP3411.html">COMP3411 (ongoing)</a>
+                </div>
+            </div>
+            <div class="dropdown">                                                                                                                                                                                                                                                                                                       
+                <li><a href="projectshome.html">Projects</a></li>
+                <div class="projlist">
+                    <a href="">2D Platformer</a>
+                    <a href="">Portfolio Website</a>
+                </div>
+            </div>
+            <li><a href="contact.html">Contact</a></li>
+        </ul>
+    </nav>
+    
+
+    
+
+    
+    <main>
+        <h1 class="subject">COMP1521</h1>
+        <a href="https://www.handbook.unsw.edu.au/undergraduate/courses/2023/COMP1521?year=2023" class="sub_link" target="_blank">Link to University Handbook</a>
+        <br>
+        <a href="https://unilectives.devsoc.app/course/COMP1521" class="sub_link" target="_blank">Check out what other students think about the course</a>
+
+        <h2>Overall thoughts</h2>
+        <div class="section">
+            <p> COMP1521 was a great course that felt like it ended too soon. I completed this subject in Trimester 2 2023 alongside COMP2521 and a free elective. </p>
+            <p>
+                This was the second Computer Science course that I took and the first time I used a language other than C. Assembly/MIPS was an entirely different experience, and I found it really fun trying to express
+                the concepts that I had learnt previously in a lower level language.
+
+                I found that in general the lectures were very thorough and well paced. However, for me, the topics covered in the last few weeks (files, processes, threads, virtual memory) 
+                needed more time dedicated to them and felt rushed through. Otherwise, the other assessments were designed well and effectively tested the course content.
+
+            </p>
+            <p> 
+                Overall I really enjoyed this course and felt like it was a great introduction to broader computer system fundamentals.
+            </p>
+        </div>
+
+        <h2>What I took away</h2>
+        <div class="section">
+            <p>
+                Where COMP1511 gave me an understanding of coding, COMP1521 gave me an understanding of computer systems. Although this understanding was mostly introductory, 
+                I definitely left with an appreciation of computer architecture, memory and its 'structure', files, and concurrency.
+            </p>
+            <p>
+                Additionally, learning MIPS opened my eyes to how powerful abstraction is in allowing programmers to code complex operations easily, and made me excited to learn higher level programming languages.
+                This course made me more conscious of how I use and understand memory, and has helped me greatly in COMP3231 which I am currently taking in Trimester 1 of 2024.
+            </p>
+        </div>
+        
+        <h2>Assessments</h2>
+        <div class="section">
+            <p>
+                I thought that the assessments for COMP1521 were fairly interesting and reflective of the course content.
+            </p>
+            <p>
+                The course had weekly tests and laboratory tasks that tested the content covered in the previous week's lectures. 
+                I thought that the weekly tests were a great addition to the weekly tasks that I experienced in COMP1511, as they semi-replicated the kind of questions and time pressure that would occur in the final exam.
+                The labs were also useful, but I found some of the later labs to be less intuitive and not as well directed.
+            </p>
+            <p>
+                The first assessment involved 'translating' an implementation of Pacman in C to MIPS, the assembly language introduced in the course. 
+                Because the task was about translating existing implementation, it meant the assignment was more about understanding MIPS logic and memory
+
+            </p>
+            <p>
+                The second assessment involved using linked lists to simulate train carriage layouts. I also really enjoyed this assessment as I wrestled more with the idea of linked lists and found the challenge of implementing them to be more enjoyable than the first assignment.
+            </p>
+
+        </div>
+    </main>
+
+    <footer>
+        <p>Created by James Moran O'Donnell</p>
+        <p>
+            For the resources used to build the site click <a href="resources.html">here.</a>
+        </p>
+        <a target="_blank" href="https://icons8.com/icon/4IZ8RiC9K8go/star">Star</a> icon by <a target="_blank" href="https://icons8.com">Icons8</a>
+    </footer>
+</body>
+</html>
